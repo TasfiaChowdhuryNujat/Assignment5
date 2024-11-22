@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- NestedScrollView for wrapping other content -->
+
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,19 +17,19 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- Add content above RecyclerView -->
+
             <TextView
                 android:id="@+id/headerTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Programming Languages"
+                android:text="@string/programming_languages"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:gravity="center"
                 android:background="#EEEEEE" />
 
-            <!-- RecyclerView -->
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
